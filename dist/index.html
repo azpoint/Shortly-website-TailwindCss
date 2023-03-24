@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack Tailwind Starter</title>
-</head>
-<body>
-    <h1 class="text-5xl">Hello Alejandro</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="/images/favicon-32x32.png"
+            type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Shortly</title>
+    </head>
+    <body>
+        <!-- Nav Container  -->
+        <div class="relative container mx-auto p-6">
+            <!-- Flex Container -->
+            <div class="flex items-center justify-between">
+                <!-- Flex Container Logo & Menu -->
+                <div class="flex items-center space-x-20">
+                    <!-- Logo -->
+                    <img src="/images/logo.svg" alt="">
+
+                    <!-- Menu -->
+                    <div class="hidden lg:flex space-x-8 font-bold">
+                        <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Features</a>
+                        <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Pricing</a>
+                        <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Resources</a>
+                        
+                    </div>
+                </div>
+
+                <!-- Right Buttons Menu -->
+                <div class="hidden lg:flex items-center space-x-6 font-bold text-grayishViolet">
+                    <a href="" class="hover:text-veryDarkViolet">Login</a>
+
+                    <a href="" class="px-8 py-3 font-bold text-white bg-cyan rounded-full hover:opacity-70">Sign Up</a>
+                </div>
+
+                <!-- @Todo Hamburger Menu -->
+
+            </div>
+
+            <!-- @Todo Mobile Menu -->
+
+        </div>
+
+    </body>
     <script src="bundle.js"></script>
-</body>
 </html>
